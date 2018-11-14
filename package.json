@@ -1,0 +1,22 @@
+{
+  "name": "graphql-server-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server": "json-server -p 4004 --watch db.json",
+    "json:servertst": "json-server -p 8080 --watch db.json",
+    "dev": "NODE_ENV=development nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "axios-cache-adapter": "^2.0.0",
+    "express": "^4.14.0",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "lodash": "^4.17.4"
+  }
+}
