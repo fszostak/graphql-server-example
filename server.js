@@ -6,7 +6,7 @@ const compress = require("compression")
 const expressGraphQL = require("express-graphql")
 const schema = require("./schema/schema")
 
-const serverName = "mirum-br-graphql-base"
+const serverName = "graphql-server-example"
 const port = 5000
 
 const app = express()
