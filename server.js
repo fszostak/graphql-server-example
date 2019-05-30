@@ -28,4 +28,5 @@ app.listen(port, () => {
   console.info(`✅  NODE_ENV: ${process.env.NODE_ENV}`)
   console.info("")
   console.info(`> Started on port ${port}`)
+
 })
