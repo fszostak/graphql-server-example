@@ -13,7 +13,7 @@ const app = express()
 
 app.use(cors()) // enable `cors` to set HTTP response header: Access-Control-Allow-Origin: *
 
-//app.use(compress());
+app.use(compress());
 
 app.use(
   "/",
